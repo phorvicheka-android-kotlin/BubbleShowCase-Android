@@ -1,10 +1,15 @@
-*.iml
-.gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
 /bubbleshowcase/keystore.gradle
 .DS_Store
-/build
 /captures
 .externalNativeBuild
+
+# Gradle files
+.idea
+.gradle/
+build/
+
+# Intellij
+*.iml
+.idea/*
+!.idea/copyright
